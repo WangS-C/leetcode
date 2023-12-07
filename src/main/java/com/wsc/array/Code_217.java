@@ -4,6 +4,7 @@ public class Code_217 {
     public static boolean containsDuplicate(int[] nums) {
 
         return true;
+
     }
 
     public static void main(String[] args) {
