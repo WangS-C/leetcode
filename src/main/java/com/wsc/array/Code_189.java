@@ -26,10 +26,8 @@ public class Code_189 {
         int tmp;
         while (start < end) {
             tmp = nums[start];
-            nums[start] = nums[end];
-            nums[end] = tmp;
-            start++;
-            end--;
+            nums[start++] = nums[end];
+            nums[end--] = tmp;
         }
     }
 
